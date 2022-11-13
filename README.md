@@ -6,17 +6,17 @@ The Megaline company offers its clients two prepaid plans, Surf and Ultimate. Th
 
 ## Steps in analysis
 
-Opening the data files and studing the general information
-Preparing the data - changing column types
-Joining the tables
-Calculating monthly payments
-Analyzing customer behaviour
-Conclusions
-Formulating and Testing Statistical Hypotheses
-General conclusion
+ - Opening the data files and studing the general information
+ - Preparing the data - changing column types
+ - Joining the tables
+ - Calculating monthly payments
+ - Analyzing customer behaviour
+ - Conclusions
+ - Formulating and Testing Statistical Hypotheses
+ - General conclusion
 
-Data description
-The users table (data on users):
+## Data description
+#### The users table (data on users):
   - user_id — unique user identifier
   - first_name — user's name
   - last_name — user's last nameCourse Project 4
@@ -26,21 +26,22 @@ The users table (data on users):
   missing, the calling plan was being used when this data was generated)
   - city — user's city of residence
   - plan — calling plan name
-The calls table (data on calls):
+  
+#### The calls table (data on calls):
   - id — unique call identifier
   - call_date — call date
   - duration — call duration (in minutes)
   - user_id — the identifier of the user making the call
-The messages table (data on texts):
+#### The messages table (data on texts):
   - id — unique text message identifier
   - message_date — text message date
   - user_id — the identifier of the user sending the text
-The internet table (data on web sessions):
+#### The internet table (data on web sessions):
   - id — unique session identifier
   - mb_used — the volume of data spent during the session (in megabytes)
   - session_date — web session date
   - user_id — user identifier
-The plans table (data on the plans):
+#### The plans table (data on the plans):
   - plan_name — calling plan name
   - usd_monthly_fee — monthly charge in US dollars
   - minutes_included — monthly minute allowance
